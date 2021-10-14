@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*header, article, footer{
+    box-sizing: border-box;
+}*/
+
+header, footer{
+    text-align:center;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+}
+
+.kartya{
+/*    padding:5px;
+    background-color:blue;*/
+    margin:3px;
+}
+
+article{
+    display: grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:100px 100px;
+    grid-gap:10px;
+    align-items:center;
+}
+
+article div{
+    border: 1px solid black;
+}
+
+article div img{
+    width: 100%;
+}
